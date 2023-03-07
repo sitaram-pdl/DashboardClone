@@ -1,0 +1,150 @@
+:root {
+  --border-color: rgba(128, 128, 128, 0.233);
+  --active-status--color: #49d721;
+  --active-bg: #ffffff;
+  --dashboard-bg--color: #ecf0fa;
+  --heading-text--color: #242f48;
+  --rated-icon: #fbbc0b;
+}
+.dashboard_container {
+  width: 100%;
+  height: 100%;
+  background: var(--dashboard-bg--color);
+  padding: 1rem;
+}
+.dashboard_heading {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dashboard_heading__left h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--heading-text--color);
+}
+.dashboard_heading__left p {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--icon-color);
+}
+
+.dashboard_heading__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card_item {
+  padding: 0 1rem;
+}
+.dashboard_heading__right h2 {
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--heading-text--color);
+}
+.dashboard_heading__right p {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--icon-color);
+}
+.dashboard_card__div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+.single_card {
+  width: 23.5%;
+  height: auto;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background: var(--icon-color);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.single_card-_left,
+.single_card-_right {
+  margin-bottom: 2rem;
+}
+.single_card-_left h3,
+.single_card-_right h3 {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.5rem 0;
+  color: var(--active-bg);
+}
+.single_card-_left h1 {
+  font-size: 21px;
+  font-weight: 700;
+  padding: 0.2rem 0;
+  color: var(--active-bg);
+}
+.single_card-_left p {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0.1rem 0;
+  color: var(--font-color);
+}
+.single_card-_right {
+  display: flex;
+  align-items: center;
+}
+h3 {
+  font-size: 13.5px;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding: 0.2rem 0;
+  color: var(--icon-color);
+}
+.single_card-_right ion-icon {
+  font-size: 18px;
+  margin-right: 0.5rem;
+  color: var(--font-color);
+}
+.dashboard_ratings {
+  text-align: right;
+  margin: 0 2rem;
+}
+.Rating_value {
+  display: flex;
+  align-items: center;
+}
+.left_rating {
+  margin-right: 1rem;
+}
+.left_rating ion-icon {
+  margin-left: 0.2rem;
+  color: var(--icon-color);
+}
+.rated ion-icon {
+  color: var(--rated-icon);
+}
+.graph_map__div {
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  justify-content: space-between;
+}
+.third_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+
+.first_col,
+.second_col,
+.third_col {
+  flex-basis: 32%;
+  height: 85vh;
+}
+.fourth_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.3rem;
+}

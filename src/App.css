@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+:root {
+  --border-color: rgba(128, 128, 128, 0.192);
+  --bg: #ffffff;
+  --light-bg--color: rgba(176, 176, 221, 0.662);
+  --font-color: #b4bdce;
+  --icon-color: #5b6e88;
+  --hover-color: rgba(1, 98, 232, 0.8);
+  --black-color: #000000db;
+}
+body {
+  transition: all linear;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--font-color);
+}
+.app_container {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.left_container {
+  width: 18.5%;
+  height: 100vh;
+  background: var(--bg);
+  box-shadow: rgba(152, 152, 156, 0.421) 0px 8px 24px;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  transition: all 0.2s linear;
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 10;
+}
+.left_container::-webkit-scrollbar {
+  width: 0;
+}
+
+.right_container {
+  flex: 1;
+  height: 100%;
+  background: var(--bg);
+  transition: all 0.3s linear;
+}
