@@ -9,7 +9,7 @@ const WorldMap = () => {
         <p>Sales Performance of all states in the UNited States</p>
       </div>
       <div className="map_img_div">
-        <img src="src/assets/map.png" alt="flag" />
+        <img src="./assets/map.png" alt="flag" />
       </div>
     </div>
   );

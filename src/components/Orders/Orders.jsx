@@ -13,7 +13,7 @@ const Orders = () => {
       </div>
       <div className="order_body">
         <div className="order_graph_img">
-          <img src="src/assets/order.png" alt="flag" />
+          <img src="./assets/order.png" alt="flag" />
         </div>
         <div className="order_graph_analytic">
           <div className="order_graph_left">

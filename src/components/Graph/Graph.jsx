@@ -12,7 +12,7 @@ const Graph = () => {
         </p>
       </div>
       <div className="graph_img_div">
-        <img src="src/assets/graph.png" alt="flag" />
+        <img src="./assets/graph.png" alt="flag" />
       </div>
     </div>
   );

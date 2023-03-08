@@ -11,8 +11,9 @@
   --light-bg--color: rgba(176, 176, 221, 0.662);
   --font-color: #b4bdce;
   --icon-color: #5b6e88;
-  --hover-color: rgba(1, 98, 232, 0.8);
+  --hover-color: #0162e8;
   --black-color: #000000db;
+  --yellow-color: #fbbc0b;
 }
 body {
   transition: all linear;

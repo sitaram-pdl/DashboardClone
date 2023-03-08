@@ -15,3 +15,6 @@
   margin: 0 0.3rem;
   color: red;
 }
+.footer_container p span {
+  color: var(--hover-color);
+}

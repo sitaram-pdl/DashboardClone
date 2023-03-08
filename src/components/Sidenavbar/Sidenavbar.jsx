@@ -31,12 +31,12 @@ const Sidenavbar = ({ smallSidebar }) => {
         style={{ display: smallSidebar ? "block" : "none" }}
       >
         <div className="top_sidenabvar__container">
-          <img src="src/assets/logo.png" alt="logo" />
+          <img src="./assets/logo.png" alt="logo" />
         </div>
         <div className="middle_sidenabvar__container">
           <div className="user_profile_div">
             <div className="profile_img_bg">
-              <img src="src/assets/profile.jpg" alt="logo" />
+              <img src="./assets/profile.jpg" alt="logo" />
             </div>
             <div className="active_div">
               <div className="circle delay1"></div>
@@ -335,12 +335,12 @@ const Sidenavbar = ({ smallSidebar }) => {
         style={{ display: smallSidebar ? "none" : "block" }}
       >
         <div className="top_sidenabvar__container">
-          <img src="src/assets/logo1.png" alt="logo" />
+          <img src="./assets/logo1.png" alt="logo" />
         </div>
         <div className="middle_sidenabvar__container">
           <div className="user_profile_div">
             <div className="profile_img_bg">
-              <img src="src/assets/profile.jpg" alt="logo" />
+              <img src="./assets/profile.jpg" alt="logo" />
             </div>
             <div className="active_div">
               <div className="active_status"></div>
