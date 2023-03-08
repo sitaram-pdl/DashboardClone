@@ -9,7 +9,7 @@
   position: fixed;
   top: 11.5%;
   right: 14.5%;
-  width: 290px;
+  width: 300px;
   height: 70vh;
   border-radius: 0.4rem;
   background: var(--bg);
@@ -86,4 +86,72 @@
   border: 0;
   outline: 0;
   cursor: pointer;
+}
+
+.notification_body {
+  width: 100%;
+  height: auto;
+  overflow: scroll;
+  overflow-x: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.notification_body::-webkit-scrollbar {
+  width: 5px;
+}
+.notification_body::-webkit-scrollbar-thumb {
+  background: var(--icon-color);
+  border-radius: 5rem;
+}
+.individual_notification {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.5px solid var(--border-color);
+  user-select: none;
+  padding: 0.3rem 0.5rem;
+  transition: all 0.3s linear;
+}
+.individual_notification:hover {
+  background: var(--dashboard-bg--color);
+}
+.individual_notification_div__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+}
+.individual_notification_div__left ion-icon {
+  width: 18px;
+  height: 18px;
+  padding: 0.7rem;
+  border-radius: 50%;
+  background: pink;
+  color: var(--bg);
+}
+.individual_notification_div__right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.individual_notification_div__right .row2 ion-icon {
+  font-size: 15px;
+}
+.individual_notification_div__right h3 {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--black-color);
+}
+.individual_notification_div__right p {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--icon-color);
+}
+.individual_notification_div__right small {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--icon-color);
 }
